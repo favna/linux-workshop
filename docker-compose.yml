@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  linux:
+    image: cgi-linux-training
+    build: .
+    container_name: linux-training
+    stdin_open: true
+    tty: true
+    restart: 'no'
+    command: /bin/bash
