@@ -1,6 +1,14 @@
 # Linux workshop
 
-**Run docker image with docker compose**
+## Download files
+
+**First download this repository as a zip**
+
+![](./assets/download.png)
+
+## Run docker image with docker compose
+
+**Build and run the docker image**
 
 ```sh
 docker compose build linux
