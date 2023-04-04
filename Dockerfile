@@ -12,5 +12,6 @@ RUN useradd "old-deprecated_user"
 
 RUN mkdir -p /var/old_logging && touch /var/old_logging/log1.log && touch /var/old_logging/log2.log
 ADD lipsum.txt /home/my_user/.hidden-directory/very-well-hidden.1.txt
+RUN source /root/.profile
 
 RUN updatedb
