@@ -1,4 +1,3 @@
-version: '3.9'
 services:
   linux:
     image: cgi-linux-training
