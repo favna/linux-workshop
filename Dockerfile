@@ -1,7 +1,7 @@
 FROM debian:bookworm
 
 RUN apt-get update && \
-    apt-get install -y man wget curl locate less nano sudo && \
+    apt-get install -y man wget curl locate less nano sudo vim && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
