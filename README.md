@@ -1,5 +1,9 @@
 # Linux workshop
 
+## Network
+
+- Please use IWNET while you are doing the exercises, because of EWNET's firewall 🔥
+
 ## Download files
 
 **First download this repository as a zip**
