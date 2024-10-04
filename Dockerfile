@@ -11,7 +11,6 @@ RUN apt update && \
         sudo \
         vim \
         wget \
-    && \
     # Remove apt cache
     && apt-get clean -y \
     && apt autoremove -y \
