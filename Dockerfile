@@ -16,8 +16,8 @@ RUN apt update && \
     && apt autoremove -y \
     && rm -rf /var/lib/apt/lists/* \
     # Add aliases
-    && echo "alias ll='ls -lh'" >> /etc/bash.bashrc \
-    && echo "alias la='ls -lAh'" >> /etc/bash.bashrc \
+    && echo "alias ll='ls -lhs'" >> /etc/bash.bashrc \
+    && echo "alias la='ls -lAhs'" >> /etc/bash.bashrc \
     && useradd -m "my_user" \
     && useradd "old-deprecated_user" \
     && usermod --shell /bin/bash my_user \
