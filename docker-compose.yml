@@ -1,6 +1,6 @@
 services:
   linux:
-    image: cgi-linux-training
+    image: favware/cgi-linux-training:latest
     build: .
     container_name: linux-training
     stdin_open: true
