@@ -9,5 +9,5 @@
 **Run the docker image**
 
 ```sh
-docker run -it --rm linux /bin/bash
+docker run -it --rm favware/cgi-linux-workshop
 ```
