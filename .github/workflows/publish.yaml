@@ -44,7 +44,12 @@ jobs:
           cache-to: type=gha,mode=max
           platforms: |
             linux/amd64
+            linux/arm
             linux/arm64
+            linux/arm/v6
+            linux/arm/v7
+            linux/386
+            darwin
           tags: |
             favware/cgi-linux-training:latest
             ghcr.io/favna/linux-workshop:latest
