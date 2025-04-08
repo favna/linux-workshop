@@ -12,6 +12,9 @@ on:
       - Dockerfile
   workflow_dispatch:
 
+permissions:
+  packages: write
+
 jobs:
   publish:
     name: Publish image to container registries
